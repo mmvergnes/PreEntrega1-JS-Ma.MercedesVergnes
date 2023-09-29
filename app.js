@@ -9,6 +9,8 @@ console.log(nombre + " " + apellido);
 let email = prompt("Ingrese su Email");
 console.log(email);
 
+
+
 alert(`Hola! ${nombre}, nos alegra que hayas decidido incorporarte a ${club}.
 Te contamos que actualmente estamos trabajando con un sistema de créditos con el que podés pagar las clases que usas, cuando las usas; y cada actividad tiene un valor en créditos.
 
