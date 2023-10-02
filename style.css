@@ -1,0 +1,17 @@
+.bg-color{
+    background: rgb(5,110,194);
+    background: linear-gradient(180deg, rgba(5,110,194,0.6166841736694677) 69%, rgba(255,255,255,0) 100%);
+}
+.container{
+    text-align: center;
+}
+
+h1{
+    color: #fff;
+    margin-top: 100px;
+}
+
+img {
+    width: 500px;
+    height: auto;
+}
