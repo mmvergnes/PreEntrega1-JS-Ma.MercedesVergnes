@@ -121,15 +121,18 @@ function seleccionarMetodo() {
 
     opcionCorrecta = obtenerPagoPorId(pagoId) || pagoId == 0;
   }
-  console.log(pagoId)
+
   switch (pagoId) {
     case "0":
+      alert("El proceso de pago ha sido cancelado");
       console.log("El proceso de pago ha sido cancelado");
       break;
-    case 1:
+    case "1":
+      alert("Perfecto! te redirigiremos a MP para efectuar el pago. Gracias!");
       console.log("Perfecto! te redirigiremos a MP para efectuar el pago. Gracias!");
       break;
     case "2":
+      alert("Felicitaciones! Te esperamos en el club para abonar y disfrutar de las clases.");
       console.log("Felicitaciones! Te esperamos en el club para abonar y disfrutar de las clases.");
       break;
   }
