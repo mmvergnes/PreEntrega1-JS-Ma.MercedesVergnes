@@ -128,6 +128,11 @@ h2 {
 .modal {
     .modal-header{
         border-bottom: none;
+        h1 {
+            .modal-title {
+                font-weight: 700;
+            }
+        }
     }
     .modal-body {
         padding-bottom: 40px;
